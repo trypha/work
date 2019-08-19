@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Funny Movies</title>
+    
+    <!-- Load an icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <!--custom css-->
+    <link href="assets/css/dev.css" rel="stylesheet">
+
+</head>
+<body>
+	 <!--header start-->
+    <div class="topnav">
+    <a class="active" href="#"><i class="fa fa-fw fa-home"></i>Funny Movies</a>
+  <div class="login-container">
+    <form action="index.html" method="post">
+      <input type="text" placeholder="Username" name="email">
+      <input type="text" placeholder="Password" name="password">
+        <button onclick="document.getElementById('id01').style.display='block'">Login/Register</button>
+        
+        <!-- The Modal -->
+<div id="id01" class="modal">
+  <span onclick="document.getElementById('id01').style.display='none'" 
+class="close" title="Close Modal">&times;</span>
+
+  <!-- Modal Content -->
+  <form class="modal-content animate" action="/action_page.php">
+ <!--   <div class="imgcontainer">
+      <img src="img_avatar2.png" alt="Avatar" class="avatar">
+    </div>-->
+
+    <div class="container">
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+
+      <button type="submit">Login</button>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+      <span class="reg">Dont have an account yet <a href="register.html">Register?</a></span>
+    </div>
+  </form>
+    </div>
+     <!-- <button type="submit"><a href="login.html">Login/Register</a></button>-->
+    </form>
+  </div>
+        </div>
+    <!-- header -->
+    
+    <div class="container">
+	<div class="vid">
+		<video controls> <source src="./assets/videos/Be%20Kind%20and%20Share.mp4" type="video/mp4"></video>
+            </div>
+            <div class="content">
+        <h3>Be Kind and Share</h3>
+        <h4>Shared by: someone@gmail.com</h4>
+        <h4>Description:</h4>
+        <p>This is a video designed for kids to help them learn how to be <br> kind and share what they can share with others in need of it</p>
+	</div>
+                
+	<div class="vid">
+		<video controls> <source src="./assets/videos/Be%20Appreciative.mp4" type="video/mp4"></video>
+        <div class="content">
+        <h3>Be Appreciative</h3>
+        <h4>Shared by:someone@gmail.com</h4>
+        <h4>Description:</h4>
+        <p>This is a video designed for kids to help them learn how to be <br> appreciative of whatever good thing is given to them </p>
+	</div>
+        </div>
+                  
+	<div class="vid">
+		<video controls> <source src="./assets/videos/Be%20Generous.mp4" type="video/mp4"></video>
+        <div class="content">
+        <h3>Be Generous</h3>
+        <h4>Shared by: someone@gmail.com</h4>
+        <h4>Description:</h4>
+        <p>This is a video designed for kids to help them learn how to be <br> generous when dealing with others</p>
+        </div>
+        </div>
+        
+    <div class="vid">
+        <video controls> <source src="./assets/videos/Be%20Truthful.mp4" type="video/mp4"></video>
+        <div class="content">
+        <h3>Be Truthfull</h3>
+        <h4>Shared by: someone@gmail.com</h4>
+        <h4>Description:</h4>
+        <p>This is a video designed for kids to help them learn how to be <br> truthful no matter how little the situation may be.</p>
+	</div>
+        </div>
+  </div>
+</body>
+    
+    <!-- footer content-->
+<footer>
+    <div class="foot">
+        &copy; Funny movies.
+    </div>
+</footer>
+<!--footer content -->
+
+</html>

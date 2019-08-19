@@ -1,0 +1,198 @@
+body {
+   background-color: #d3d3d3;
+    font-family: sans-serif;
+}
+
+/* Style the navbar */
+.topnav {
+  overflow: hidden;
+  background-color: #800080;
+}
+
+/* Navbar links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #ffffff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 40px;
+}
+
+
+/* Style the input container */
+.topnav .login-container {
+  float: right;
+}
+
+/* Style the input field inside the navbar */
+.topnav input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+  width: 150px; /* adjust as needed (as long as it doesn't break the topnav) */
+}
+
+/* Style the button inside the input container */
+.topnav .login-container button {
+  float: right;
+  padding: 6px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+/* style the topnav submit */
+
+ .submit{
+    float: right;
+     padding: 6px;
+  margin-top: 20px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+   
+}
+.submit:hover {
+    color: purple;
+}
+
+/* style the videos to align with the text*/
+
+.container {
+    margin-top: 50px;
+}
+
+.vid video {
+    display: block;
+    margin: 30px;
+    margin-right: auto;
+    margin-left: 15%;
+    width: 40%;
+}
+
+.content {
+    float: right;
+    margin-right: 145px;
+    margin-top: -335px
+}
+
+.content h3 {
+    font-weight: bold;
+    font-size: 120%;
+    color: red;
+}
+.content p {
+    margin-top: -20px;
+}
+
+/* Add responsiveness - On small screens, display the navbar vertically instead of horizontally */
+@media screen and (max-width: 600px) {
+  .topnav .login-container {
+    float: none;
+  }
+  .topnav a, .topnav input[type=text], .topnav .login-container button {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+  .topnav input[type=text] {
+    border: 1px solid #ccc; 
+  }
+}
+
+/* adding styles to the registers page...*/
+/* Style the input container */
+.input-container {
+  display: flex;
+  width: 30%;
+  margin-bottom: 15px;
+    margin-left: 35%;
+    
+}
+
+/* Style the form icons */
+.icon {
+  padding: 10px;
+  background: #800080;
+  color: white;
+  min-width: 50px;
+  text-align: center;
+}
+
+/* Style the input fields */
+.input-field {
+  width: 70%;
+  padding: 10px;
+  outline: none;
+}
+
+.input-field:focus {
+  border: 2px solid #800080;
+  
+}
+
+/* Set a style for the submit button */
+.btn {
+  background-color: #800080;
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+  width: 10%;
+  opacity: 0.9;
+    margin-left: 44.5%;
+}
+
+h2 {
+    text-align: center;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+/*style the share page*/ 
+.main {
+    display: block;
+  width: 30%;
+  margin-bottom: 15px;
+    margin-left: 35%;
+    border: 2px solid #000000;
+    padding: 50px;
+    margin-top: 10%;
+}
+.field {
+    width: 50%;
+    padding: 8px;
+  outline: none;
+}
+.but {
+   background-color: #800080;
+  color: white;
+  padding: 8px;
+  border: none;
+  cursor: pointer;
+  width: 50%;
+  margin-left: 26%;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.main p {
+    margin-top: -10%;
+    padding-bottom: 40px;
+}
+/*footer*/
+.foot {
+    float: right;
+}
